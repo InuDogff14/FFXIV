@@ -16,104 +16,114 @@
     <!--光と闇の2パターンしかない？-->
     <!--だとしたらログ抜き出して「●●からの●●」的な感じに読み上げさせた方がいいかも-->
 
-    <!--ジューリー＆オーバールール-->
+    <!--ジューリー＆オーバールール(光)-->
+    <t sync="調査中" notice="散会からのよんよん" >
+        <v-notice text="散会→44" duration="15" />
+    </t>
+
+    <!--ジューリー＆オーバールール(闇)-->
+    <t sync="調査中" notice="散会からのペア" >
+        <v-notice text="散会→ペア" duration="15" />
+    </t>
+
+    <!--アップヘルド＆オーバールール(光)-->
+    <t sync="調査中" notice="中央頭割りからのよんよん" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--アップヘルド＆オーバールール(闇)-->
+    <t sync="調査中" notice="散会からの中ペア" >
+        <v-notice text="散会→ペア" duration="15" />
+    </t>
+
+    <!--ディバイド＆オーバールール(光)-->
+    <t sync="調査中" notice="よんよんで外よけ" >
+        <v-notice text="44外" duration="15" />
+    </t>
+
+    <!--ディバイド＆オーバールール(闇)-->
+    <t sync="調査中" notice="ペアで中よけ" >
+        <v-notice text="ペア中" duration="15" />
+    </t>
+
+    <!--ディスミサル＆オーバールール(光)-->
     <t sync="調査中" notice="" >
         <v-notice text="" duration="15" />
     </t>
 
-    <!--アップヘルド＆オーバールール-->
+    <!--ディスミサル＆オーバールール(闇)-->
     <t sync="調査中" notice="" >
         <v-notice text="" duration="15" />
     </t>
 
-    <!--ディバイド＆オーバールール-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
+    <!--冗長すぎるのでそのうち分けたい-->
+    <!--
+        開幕
+        3連オーバールール
+        魔法陣展開
+        戒律の幻奏
+        ライトストリーム
+        光と闇の調停
+        ダークストリーム
+        3連オーバールール
+        理法の幻奏
+        ライトストリーム
+        時間切れ
+        -->
+    <!--テミスのセリフで移行させたいので、ログ取れ次第-->
 
-    <!--ディスミサル＆オーバールール-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
-
-    <!--イルーサリーグレア-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
-
-    <!--イルーサリーダーク-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
-
-    <!--アディショナルロウ-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
-
-    <!--アディショナルセンテンス-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
-
-    <!--ライトバースト-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
-
-    <!--ダークサークル-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
-
-    <!--光爆-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
-
-    <!--闇の衝撃-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
-
-    <!--インナーグレア-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
-
-    <!--アウターダーク-->
-    <t sync="調査中" notice="" >
-        <v-notice text="" duration="15" />
-    </t>
-
+    <!--開幕-->
     <s name="ENTRY">
         <a time="000" text="戦闘開始" />
         <a time="015" text="エウノミアー" notice="全体" />
         <a time="029" text="ディケー" notice="スイッチ" />
-        <a time="044" text="ジューリー＆オーバールール" notice="散会" />
+
+    <!--3連オーバールール-->
+        <a time="044" text="ジューリー＆オーバールール" />
         <a time="062" text="アップヘルド＆オーバールール" />
         <a time="081" text="ディバイド＆オーバールール" />
         <a time="093" text="ステュクス" notice="5回頭割り" />
+
+    <!--魔法陣展開-->
         <a time="121" text="ディスミサル＆オーバールール" />
+
+    <!--戒律の幻奏-->
         <a time="153" text="戒律の幻奏" />
+        <a time="166" text="ディバイド＆ルーリング(外周)" />
+        <a time="180" text="アップヘルド＆ルーリング(外周)" />
         <a time="191" text="ジューリー＆オーバールール" />
         <a time="204" text="ステュクス" notice="6回頭割り" />
+
+    <!--ライトストリーム-->
         <a time="242" text="ディバイド＆オーバールール" />
         <a time="272" text="アップヘルド＆オーバールール" />
+
+    <!--光と闇の調停-->
         <a time="295" text="光と闇の調停" />
         <a time="326" text="ジューリー＆オーバールール" />
         <a time="345" text="ディバイド＆オーバールール" />
         <a time="367" text="ステュクス" notice="7回頭割り" />
         <a time="381" text="ディケー" notice="スイッチ" />
+
+    <!--ダークストリーム-->
+        <a time="404" text="ダークストリーム" />
+
+    <!--3連オーバールール-->
         <a time="430" text="ジューリー＆オーバールール" />
         <a time="448" text="アップヘルド＆オーバールール" />
         <a time="470" text="ディバイド＆オーバールール" />
+
+    <!--理法の幻奏-->
         <a time="512" text="理法の幻奏" />
         <a time="564" text="ステュクス" notice="8回頭割り" />
+
+    <!--ライトストリーム-->
         <a time="603" text="ディバイド＆オーバールール" />
         <a time="622" text="ディケー" notice="スイッチ" />
+
+    <!--時間切れ-->
         <a time="643" text="ジューリー＆オーバールール" />
-        <a time="659" text="エウノミアー" />
-        <a time="究極調停" text="時間切れ" />
+        <a time="659" text="エウノミアー" notice="全体" />
+        <a time="究極調停" text="時間切れ" notice="時間切れ" />
     </s>
 </timeline>
