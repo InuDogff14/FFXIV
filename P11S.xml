@@ -12,6 +12,29 @@
     <start>0039::戦闘開始！</start>
     <entry>ENTRY</entry>
 
+    <!--TODO-->
+    <!--光と闇の2パターンしかない？-->
+    <!--だとしたらログ抜き出して「●●からの●●」的な感じに読み上げさせた方がいいかも-->
+
+    <!--ジューリー＆オーバールール-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--アップヘルド＆オーバールール-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--ディバイド＆オーバールール-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--ディスミサル＆オーバールール-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
 
     <!--イルーサリーグレア-->
     <t sync="調査中" notice="" >
