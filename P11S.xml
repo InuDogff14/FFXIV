@@ -1,86 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
-  <name>パンデモ零式:天獄３層</name>
-  <rev>rev1.0</rev>
-  <description>
-    Test 20230601
-  </description>
-  <author>Inu Dog</author>
-  <license>CC BY-SA</license>
-  <zone>Anabaseios: The Eleventh Circle (Savage)</zone>
-  <locale>JA</locale>
-  <start>0039::戦闘開始！</start>
-  <entry>ENTRY</entry>
+    <name>パンデモ零式:天獄３層</name>
+    <rev>rev1.0</rev>
+    <description>
+        Test 20230601
+    </description>
+    <author>Inu Dog</author>
+    <license>CC BY-SA</license>
+    <zone>Anabaseios: The Eleventh Circle (Savage)</zone>
+    <locale>JA</locale>
+    <start>0039::戦闘開始！</start>
+    <entry>ENTRY</entry>
 
-<!--イルーサリーグレア-->
-<t sync="" notice="" >
-  <v-notice text="" duration="15" />
-</t>
-<!--イルーサリーダーク-->
-<t sync="" notice="" >
-  <v-notice text="" duration="15" />
-</t>
-<!--アディショナルロウ-->
-<t sync="" notice="" >
-  <v-notice text="" duration="15" />
-</t>
-<!--アディショナルセンテンス-->
-<t sync="" notice="" >
-  <v-notice text="" duration="15" />
-</t>
-<!--ライトバースト-->
-<t sync="" notice="" >
-  <v-notice text="" duration="15" />
-</t>
-<!--ダークサークル-->
-<t sync="" notice="" >
-  <v-notice text="" duration="15" />
-</t>
-<!--光爆-->
-<t sync="" notice="" >
-  <v-notice text="" duration="15" />
-</t>
-<!--闇の衝撃-->
-<t sync="" notice="" >
-  <v-notice text="" duration="15" />
-</t>
-<!--インナーグレア-->
-<t sync="" notice="" >
-  <v-notice text="" duration="15" />
-</t>
-<!--アウターダーク-->
-<t sync="" notice="" >
-  <v-notice text="" duration="15" />
-</t>
 
-  <s name="ENTRY">
-    <a time="000" text="戦闘開始" />
-    <a time="015" text="エウノミアー" notice="全体" />
-    <a time="029" text="ディケー" notice="タンク強攻撃" />
-    <a time="044" text="ジューリー＆オーバールール" notice="散会" />
-    <a time="062" text="アップヘルド＆オーバールール" />
-    <a time="081" text="ディバイド＆オーバールール" />
-    <a time="093" text="ステュクス" notice="5回頭割り" />
-    <a time="121" text="ディスミサル＆オーバールール" />
-    <a time="153" text="戒律の幻奏" />
-    <a time="191" text="ジューリー＆オーバールール" />
-    <a time="204" text="ステュクス" notice="6回頭割り" />
-    <a time="242" text="ディバイド＆オーバールール" />
-    <a time="272" text="アップヘルド＆オーバールール" />
-    <a time="295" text="光と闇の調停" />
-    <a time="326" text="ジューリー＆オーバールール" />
-    <a time="345" text="ディバイド＆オーバールール" />
-    <a time="367" text="ステュクス" notice="7回頭割り" />
-    <a time="381" text="ディケー" />
-    <a time="430" text="ジューリー＆オーバールール" />
-    <a time="448" text="アップヘルド＆オーバールール" />
-    <a time="470" text="ディバイド＆オーバールール" />
-    <a time="512" text="理法の幻奏" />
-    <a time="564" text="ステュクス" notice="8回頭割り" />
-    <a time="603" text="ディバイド＆オーバールール" />
-    <a time="622" text="ディケー" notice="タンク" />
-    <a time="643" text="ジューリー＆オーバールール" />
-    <a time="659" text="エウノミアー" />
-    <a time="究極調停" text="時間切れ" />
-  </s>
+    <!--イルーサリーグレア-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--イルーサリーダーク-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--アディショナルロウ-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--アディショナルセンテンス-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--ライトバースト-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--ダークサークル-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--光爆-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--闇の衝撃-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--インナーグレア-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <!--アウターダーク-->
+    <t sync="調査中" notice="" >
+        <v-notice text="" duration="15" />
+    </t>
+
+    <s name="ENTRY">
+        <a time="000" text="戦闘開始" />
+        <a time="015" text="エウノミアー" notice="全体" />
+        <a time="029" text="ディケー" notice="スイッチ" />
+        <a time="044" text="ジューリー＆オーバールール" notice="散会" />
+        <a time="062" text="アップヘルド＆オーバールール" />
+        <a time="081" text="ディバイド＆オーバールール" />
+        <a time="093" text="ステュクス" notice="5回頭割り" />
+        <a time="121" text="ディスミサル＆オーバールール" />
+        <a time="153" text="戒律の幻奏" />
+        <a time="191" text="ジューリー＆オーバールール" />
+        <a time="204" text="ステュクス" notice="6回頭割り" />
+        <a time="242" text="ディバイド＆オーバールール" />
+        <a time="272" text="アップヘルド＆オーバールール" />
+        <a time="295" text="光と闇の調停" />
+        <a time="326" text="ジューリー＆オーバールール" />
+        <a time="345" text="ディバイド＆オーバールール" />
+        <a time="367" text="ステュクス" notice="7回頭割り" />
+        <a time="381" text="ディケー" notice="スイッチ" />
+        <a time="430" text="ジューリー＆オーバールール" />
+        <a time="448" text="アップヘルド＆オーバールール" />
+        <a time="470" text="ディバイド＆オーバールール" />
+        <a time="512" text="理法の幻奏" />
+        <a time="564" text="ステュクス" notice="8回頭割り" />
+        <a time="603" text="ディバイド＆オーバールール" />
+        <a time="622" text="ディケー" notice="スイッチ" />
+        <a time="643" text="ジューリー＆オーバールール" />
+        <a time="659" text="エウノミアー" />
+        <a time="究極調停" text="時間切れ" />
+    </s>
 </timeline>
